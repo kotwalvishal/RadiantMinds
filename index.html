@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logowhite.png" type="image/png">
+    <title>RadiantMinds</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0">
+        <div class="top-bar">
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0 d-flex align-items-center">
+                <img src="img/newlogo.png" alt="Logo" class="img-fluid" style="max-height: 70px; filter: invert(1);">
+                <h1 class="custom-font fw-bold text-primary m-0 ms-2">RADIANT<span class="text-white">MINDS</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="causes.html" class="nav-item nav-link">Services</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn btn-outline-primary py-2 px-3" href="contact.html">
+                        Contact Us
+                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/firstPage.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Empowering Business
+                                        Growth Through Smarter HR Solutions</h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Revolutionizing workforce
+                                        management with personalized strategies to fuel growth and success.</p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="about.html">
+                                        Learn More
+                                        <div
+                                            class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/meeting.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Redefining HR Strategies
+                                        to Empower Growth</h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Strategic HR expertise
+                                        designed to unlock potential and fuel sustainable growth.</p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="contact.html">
+                                        Contact Us
+                                        <div
+                                            class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/aboutUs.jpg" alt=""
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="h-100">
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
+                        <h1 class="display-6 mb-5">Enhancing Business Growth with Innovative Solutions</h1>
+                        <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
+                            <p class="text-dark">We are dedicated to providing world-class consulting services to global
+                                enterprises, driven by a clear vision to become the premier consulting partner for
+                                businesses seeking reliable and transformative solutions. Our focus lies in delivering
+                                excellence across every facet of our operations, supported by a dynamic engagement model
+                                designed for impactful results.</p>
+                        </div>
+                        <p class="mb-5">Our mission is to set new benchmarks in consulting by consistently exceeding
+                            client expectations. We aim to deliver unparalleled value that extends beyond immediate
+                            costs, creating enduring long-term benefits. This is achieved through a culture of
+                            continuous innovation, enhancement of service capabilities, adherence to industry best
+                            practices, and consistently raising the bar in service delivery every single day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Causes Start -->
+
+    <div class="container-xxl bg-light my-5 py-5">
+        <div class="container py-2">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3">Industrial Focus</div>
+            </div>
+            <div class="container swiper">
+                <div class="slider-wrapper">
+                    <div class="card-list swiper-wrapper">
+                        <div class="col-lg-4 col-md-6 swiper-slide">
+                            <div
+                                class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div
+                                        class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>FMCG</small>
+                                    </div>
+                                    <p>FMCG is one of the fastest-growing business domains in India and globally.
+                                        Result-driven, efficient Human Resource Management is the critical aspect
+                                        that defines the effective utilization of talent, skill & potential.</p>
+                                </div>
+                                <div class="position-relative mt-auto">
+                                    <img class="img-fluid" src="img/fmcg.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 swiper-slide">
+                            <div
+                                class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div
+                                        class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>E-commerce</small>
+                                    </div>
+                                    <p>To be in the present and tap every possible opportunity is the core essence
+                                        of triumph in the E-commerce industry. Bright minds with an inherent ability
+                                        of swift thinking are the essential pre-requisites. We ensure
+                                        you get to the right professionals.</p>
+                                </div>
+                                <div class="position-relative mt-auto">
+                                    <img class="img-fluid" src="img/ecommerce.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 swiper-slide">
+                            <div
+                                class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div
+                                        class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>IT/ITES</small>
+                                    </div>
+                                    <p>The domain of Information Technology Enabled Services requires a large pool
+                                        of skilled professionals who work together in coherence to achieve
+                                        organizational goals. It requires a stringent eye and keen analysis</p>
+                                </div>
+                                <div class="position-relative mt-auto w-100">
+                                    <img class="img-fluid" src="img/it.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 swiper-slide">
+                            <div
+                                class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div
+                                        class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>Manufacturing</small>
+                                    </div>
+                                    <p>At RadiantMinds, we excel in meeting sudden surges in demand effortlessly.
+                                        Manufacturing blends innovation and efficiency to convert raw materials into
+                                        finished products.</p>
+                                </div>
+                                <div class="position-relative mt-auto">
+                                    <img class="img-fluid" src="img/manufacturing.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 swiper-slide">
+                            <div
+                                class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div
+                                        class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>BSFI</small>
+                                    </div>
+                                    <p>Owing to the substantial hike in the number of people getting on-board to
+                                        avail Banking & other financial services, the significance of HRM has grown
+                                        manifold in BFSI Industry during recent years. At RadientMinds, we
+                                        are equipped to cater impulsive surge of demand with ease.</p>
+                                </div>
+                                <div class="position-relative mt-auto">
+                                    <img class="img-fluid" src="img/bfsi.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 swiper-slide">
+                            <div
+                                class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div
+                                        class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>Logistic/SCM</small>
+                                    </div>
+                                    <p>Logistics and supply chain management (SCM) are essential for smooth and
+                                        efficient product flow, cost reduction, and customer satisfaction. From
+                                        sourcing to delivery, SCM optimizes inventory and ensures timely operations.
+                                    </p>
+                                </div>
+                                <div class="position-relative mt-auto">
+                                    <img class="img-fluid" src="img/logistics.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 swiper-slide">
+                            <div
+                                class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div
+                                        class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>Telecommunications</small>
+                                    </div>
+                                    <p>Our trained personnel understand the intricacies of the telecommunication
+                                        industry and the core essence of proficiency required to manage the vital
+                                        processes of each department.</p>
+                                </div>
+                                <div class="position-relative mt-auto">
+                                    <img class="img-fluid" src="img/telecommunication.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 swiper-slide">
+                            <div
+                                class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div
+                                        class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>Information Technology</small>
+                                    </div>
+                                    <p>Information Technology is the driving force behind the evolution and
+                                        technological advancements. At BigLeap, we cater wide range human resource
+                                        management services to stabilize the system and mobilize the deliverables.
+                                    </p>
+                                </div>
+                                <div class="position-relative mt-auto">
+                                    <img class="img-fluid" src="img/informationTechnology.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Causes End -->
+
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <a href="hro.html" class="text-decoration-none">
+                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/hro.jpg" alt="">
+                            <h4 class="mb-3">HRO</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="skill.html" class="text-decoration-none">
+                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/skillDevelopment.jpg" alt="">
+                            <h4 class="mb-3">Training and skill development</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="audit.html" class="text-decoration-none">
+                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/audit.jpg" alt="">
+                            <h4 class="mb-3">Statutory Audit & Compliance</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="payrol.html" class="text-decoration-none">
+                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/payrol.jpg" alt="">
+                            <h4 class="mb-3">Staffing & Payroll Administration</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="rpo.html" class="text-decoration-none">
+                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/rpo.png" alt="">
+                            <h4 class="mb-3">RPO</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members
+                </div>
+                <h1 class="display-6 mb-5">Let's Meet With Our Ordinary Soldiers</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Full Name</h5>
+                            <p class="text-primary">Designation</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Full Name</h5>
+                            <p class="text-primary">Designation</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Full Name</h5>
+                            <p class="text-primary">Designation</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Full Name</h5>
+                            <p class="text-primary">Designation</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Testimonial</div>
+                <h1 class="display-6 mb-5">Trusted By Thousands Of People And Nonprofits</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg"
+                        style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
+                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                            clita.</p>
+                        <h5 class="mb-1">Doner Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg"
+                        style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
+                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                            clita.</p>
+                        <h5 class="mb-1">Doner Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg"
+                        style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
+                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                            clita.</p>
+                        <h5 class="mb-1">Doner Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5">
+        <div class="container py-5">
+            <div class="row g-5 justify-content-between">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <a href="index.html" class="navbar-brand d-flex flex-column align-items-center">
+                        <img src="img/newlogo.png" alt="Logo" class="img-fluid mb-2"
+                            style="max-height: 70px; filter: invert(1);">
+                        <h1 class="custom-font fw-bold text-primary m-0">RADIANT<span class="text-white">MINDS</span>
+                        </h1>
+                        <p class="outline-font">Brighter Minds
+                            Brighter Future </p>
+                    </a>
+                    <div class="d-flex justify-content-center pt-2">
+                        <a class="btn btn-square me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-2" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>#38, 4th Floor, Green Leaf Extension, 3rd Cross,
+                        4th
+                        Block, Koramangala, Bangalore, Karnataka, 560034</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@radiantmindshr.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="causes.html">Our Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">2024 RadiantMinds</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a href="https://www.linkedin.com/in/vishalkotwal">Vishal Kotwal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
