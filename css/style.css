@@ -515,3 +515,76 @@
     height: auto !important;
     object-fit: cover !important;
 }
+
+.service-item .read-more {
+    display: inline-block;
+    /* Ensures the text behaves like a button */
+    background-color: #ffffff;
+    /* White background */
+    color: #f2c132;
+    /* Black text color */
+    padding: 10px 20px;
+    /* Adds padding to make it look like a button */
+    border-radius: 12px;
+    /* Increased border radius for a rounded button */
+    font-size: 14px;
+    /* Adjust font size */
+    text-decoration: none;
+    /* Removes underline */
+    border: 1px solid #999999;
+    /* Adds a black border for definition */
+    transition: all 0.3s ease;
+    /* Smooth hover effect */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+.service-item .read-more:hover {
+    background-color: #f2c132;
+    /* Black background on hover */
+    color: #ffffff;
+    border: none;
+    /* White text color on hover */
+}
+
+.linkedin-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    /* Adjust the width and height to control the size of the box */
+    height: 40px;
+    background-color: #0077b5;
+    /* LinkedIn brand color */
+    color: white;
+    /* White color for the icon */
+    border-radius: 8px;
+    /* Optional: Round the corners of the box */
+    font-size: 18px;
+    /* Size of the icon */
+    text-decoration: none;
+}
+
+.linkedin-icon:hover {
+    background-color: #005e8c;
+    /* Darker shade on hover */
+    transition: background-color 0.3s ease;
+}
+
+.linkedin-icon i {
+    font-size: 20px;
+}
+
+.slider-wrapper-two {
+    .swiper-slide {
+        display: flex !important;
+        margin: 0 0px 0;
+    }
+
+    .swiper-pagination-bullet {
+        background: #f2c132 !important;
+        /* Ensure it's applied */
+        height: 15px !important;
+        width: 15px !important;
+    }
+}

@@ -138,6 +138,49 @@ const swiper = new Swiper('.slider-wrapper', {
 });
 
 
+const swiper2 = new Swiper('.slider-wrapper-two', {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 20,
+
+    autoplay: {
+        delay: 3000, // Delay between slides in milliseconds
+        disableOnInteraction: false, // Continue autoplay after user interaction
+    },
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 1
+        },
+        1024: {
+            slidesPerView: 1
+        }
+    }
+});
+
+
+
 function sendMail() {
     let params = {
         name: document.querySelector('#name').value,
