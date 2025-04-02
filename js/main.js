@@ -188,7 +188,7 @@ function sendMail() {
         subject: document.querySelector('#subject').value,
         message: document.querySelector('#message')?.value
     }
-    emailjs.send("service_sge3sc8", "template_oxh56dd", params)
+    emailjs.send("service_rz0rybm", "template_oxh56dd", params)
         .then(() => {
             alert('Email sent!!');
         })
@@ -197,7 +197,7 @@ function sendMail() {
             console.error('Error:', error);
         });
 }
-
+x
 let form = document.querySelector('form');
 form.addEventListener('submit', (event) => {
     event.preventDefault();
